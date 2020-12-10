@@ -1,0 +1,260 @@
+/* #9ec7b9 dark green, #eef6ee honeydew*/
+
+body{
+  background-color: #f4f4f4;
+  color:#555;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:16px;
+  line-height:1.6em;
+  margin:0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#main-header{
+  background-image:url('images/nav.jpg');
+  background-position:center left;
+  color:#000;
+}
+
+#navbar{
+  background-color:#333;
+  color: #fff;
+}
+
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+
+/*navbar horizontal*/
+#navbar li{
+  display:inline;
+}
+
+  /* words in navbar*/
+#navbar a{
+  color:#fff;
+  text-decoration:none;
+  font-size:18px;
+  padding-right:15px
+}
+
+#showcase{
+  background-image:url('images/showcase.jpg');
+  background-position:center left;
+  min-height:300px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+/*showcase text*/
+#showcase h1{
+  color: #fff;
+  font-size:50px;
+  line-height:1.6em;
+  padding-top:30px;
+}
+
+#main{
+  float:left;
+  width:70%;
+  padding:0 30px;
+  box-sizing: border-box;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background:#333;
+  color: #fff;
+  padding:30px;
+  box-sizing: border-box;
+}
+
+#sidebar a{
+  color:#fff;
+  text-decoration:none;
+  font-size:30px;
+}
+
+#main-footer{
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top:40px;
+}
+
+@media(max-width:600px){
+  #main{
+    width: 100%;
+    float: none;
+  }
+  #sidebar{
+    width: 100%;
+    float: none;
+  }
+}
+
+/*PAGE2 ABOUT US*/
+
+#page-2-main{
+  float:left;
+  width:40%;
+  background:#f4f4f4;
+  padding:20px 0px ;
+  box-sizing: border-box;
+}
+
+#page-2-sidebar{
+  float:right;
+  width:40%;
+  background:#9ec7b9;
+  color: #333;
+  padding:40px ;
+}
+
+#page-2-sidebar2{
+  float: right;
+  width:40%;
+  background: #9ec7b9;
+  color: #333;
+  padding:40px;
+}
+
+/*PAGE 3 SERVICES*/
+
+#page-3-showcase{
+  background-image:url('images/services.jpg');
+  background-size: cover;
+  min-height:300px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+/*showcase text*/
+#page-3-showcase h1{
+  color: #fff;
+  font-size:50px;
+  line-height:1.6em;
+  padding-top:30px;
+}
+
+#page-3-sidebar ul{
+  list-style: none;
+  text-align: center;
+}
+
+#page-3-sidebar li{
+  display: inline-block;
+
+}
+
+#page-3-sidebar h2{
+  color:#333;
+  text-decoration:none;
+  font-size: 18px;
+  padding-right: 40px;
+
+}
+
+/* PAGE 4 CONTACTS*/
+
+#page-4-showcase{
+  background-image:url('images/contacts.jpg');
+  background-size:cover;
+  min-height:300px;
+  margin-bottom:30px;
+  text-align: center;
+}
+
+/*showcase text*/
+#page-4-showcase h1{
+  color: #fff;
+  font-size:50px;
+  line-height:1.6em;
+  padding-top:30px;
+}
+
+.box-1{
+  background-image:url('images/fb.png');
+}
+.box-3{
+  background-image:url('images/twt.jpg');
+}
+/* PAGE 5 SHARE NOW*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Montserrat';
+}
+
+page-5-section{
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items:center;
+  background-color: #fddcc356;
+}
+
+.container-5{ /* justifying both let and rigt content*/
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left{
+  width:50%;
+  height: 600px;
+  background:url(images/img.jpg) no-repeat center / cover;
+  border-radius: 8px;
+}
+
+.right{
+  width: 40%;
+  min-height: 300px;
+  background-color: #333;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+  color: #f4f4f4;
+  margin-left: -80px;
+}
+
+.right h1{
+  font-size:40px;
+  font-weight: lighter;
+}
+
+.right p{
+  margin: 20px 0;
+  font-weight: 500px;
+  line-height:25px;
+}
+
+.right a{
+  text-decoration: none;
+  text-transform: uppercase;
+  background-color: #f4f4f4;
+  color: black;
+  padding: 20px 30px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+
+/*PAGE 6 LOGIN AND REGISTER*/
